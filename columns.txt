@@ -1,0 +1,14 @@
+I'people_id', 'activity_id', 'date_activity', 'activity_category',
+'char_1_activity', 'char_2_activity', 'char_3_activity',
+'char_4_activity', 'char_5_activity', 'char_6_activity',
+'char_7_activity', 'char_8_activity', 'char_9_activity',
+'char_10_activity', 'outcome', 'char_1_people', 'group_1',
+'char_2_people', 'date_people', 'char_3_people', 'char_4_people',
+'char_5_people', 'char_6_people', 'char_7_people', 'char_8_people',
+'char_9_people', 'char_10_people', 'char_11', 'char_12', 'char_13',
+'char_14', 'char_15', 'char_16', 'char_17', 'char_18', 'char_19',
+'char_20', 'char_21', 'char_22', 'char_23', 'char_24', 'char_25',
+'char_26', 'char_27', 'char_28', 'char_29', 'char_30', 'char_31',
+'char_32', 'char_33', 'char_34', 'char_35', 'char_36', 'char_37',
+'char_38']
+

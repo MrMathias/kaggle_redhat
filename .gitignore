@@ -1,3 +1,7 @@
 act_test.csv
 act_train.csv
 people.csv
+.DS_Store
+.idea/
+combined.csv
+large_files/
