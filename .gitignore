@@ -5,3 +5,6 @@ people.csv
 .idea/
 combined.csv
 large_files/
+__pycache__/
+combined.libsvm
+combined.vw
