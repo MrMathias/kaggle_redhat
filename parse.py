@@ -1,15 +1,17 @@
 import pandas as pd
 
-activity = pd.read_csv("act_train.csv")
+#Train data
+activity_train = pd.read_csv("act_train.csv")
 people = pd.read_csv("people.csv")
 
-"""omg en bitch"""
 # how="left": take value from "left" and check in "right". left = activity.
-joined = pd.merge(activity, people, on="people_id", how="left" , suffixes=('_activity', '_people'))
-joined.to_csv("combined.csv", index=False)
+joined = pd.merge(activity_train, people, on="people_id", how="left" , suffixes=('_activity', '_people'))
+joined.to_csv("small_combined_train.csv", index=False)
 
-# print(people.columns, activity.columns)
-# print(joined.columns)
-#
-# print(people.shape, activity.shape)
-# print(joined.shape)
+# Test data
+activity_test = pd.read_csv("act_test.csv")
+people = pd.read_csv("people.csv")
+
+# how="left": take value from "left" and check in "right". left = activity.
+joined = pd.merge(activity_test, people, on="people_id", how="left" , suffixes=('_activity', '_people'))
+joined.to_csv("small_combined_test.csv", index=False)
